@@ -1,0 +1,46 @@
+LINEAR REGRESSION + SVR-RBF REPORT
+======================================================================
+
+Training file: Tongket.csv
+Testing file: solieudonongdo.csv
+Training samples: 978
+Testing samples: 44
+Training groups: 20
+Support vectors: 907
+
+Linear calibration:
+B0 = 0.09388
+B1 = 0.00625
+
+SVR parameters:
+Kernel = RBF
+C = 10
+Epsilon = 0.1
+Gamma = 0.5
+Intercept = 9.099322421445056
+Scaler mean = [0.2324300163762216, 22.168002620195452]
+Scaler scale = [0.10385248577132149, 16.616397723411435]
+
+TRAIN cross-validation metrics:
+Linear MAE = 11.2548150537
+Linear RMSE = 15.3371848183
+Linear R2 = 0.4488957907
+Linear MaxError = 145.7342832914
+Linear+SVR MAE = 6.2768238226
+Linear+SVR RMSE = 10.0963288478
+Linear+SVR R2 = 0.7611807109
+Linear+SVR MaxError = 139.5832954533
+
+TEST metrics:
+Linear MAE = 2.9069451993
+Linear RMSE = 5.1224815168
+Linear R2 = 0.8874294266
+Linear MaxError = 27.7599999974
+Linear+SVR MAE = 8.5138533432
+Linear+SVR RMSE = 9.7992367918
+Linear+SVR R2 = 0.5880461343
+Linear+SVR MaxError = 28.1312454599
+
+Test improvement:
+MAE improvement (%) = -192.879733
+RMSE improvement (%) = -91.298627
